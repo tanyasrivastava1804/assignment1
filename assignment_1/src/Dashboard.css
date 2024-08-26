@@ -1,0 +1,30 @@
+.table-container {
+    width: 1300px;
+    height: 500px;
+    overflow: auto;
+    display: flex;
+}
+
+.parent-container {
+    width: 1400px;
+    height: 900px;
+    padding: 20px;
+}
+
+.button-container {
+    padding: 20px;
+    gap: 10px;
+    display: flex;
+    overflow: hidden;
+}
+
+.row {
+    position: absolute;
+    left: 1200px;
+    top: 50px;
+}
+
+.item-text{
+    text-align: center;
+    padding: 8px;
+}
